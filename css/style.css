@@ -1,3 +1,31 @@
+/* Accent Colors
+***************************************************************************/
+
+a {
+  color: #F06E28;
+}
+
+a:hover,
+a:focus {
+  color: #a84d1c;
+}
+
+.btn-default {
+    border: 1px solid #F06E28;
+    color: #F06E28;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #F06E28;
+    background-color: #F06E28;
+}
+
+
+
+/* About Content
+***************************************************************************/
+
 ul {
   padding-left: 0;
 }
@@ -15,6 +43,11 @@ li {
 .contact-btn {
   margin: 0 0 35px;
 }
+
+
+
+/* Portfolio Content
+***************************************************************************/
 
 .content-section-a {
   padding: 50px 0;
@@ -40,3 +73,5 @@ li {
 .portfolio-btn {
   margin-bottom: 30px;
 }
+
+
