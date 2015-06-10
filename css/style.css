@@ -1,3 +1,10 @@
+/* General
+***************************************************************************/
+
+.footer-text {
+  font-size: 10px;
+}
+
 
 
 /* Accent Colors
@@ -36,6 +43,13 @@ li {
   list-style: none;
 }
 
+.exp-ul {
+  padding-left: 20px;
+}
+.exp-ul > li {
+  list-style: circle;
+}
+
 #headshot {
   border-radius: 50%;
   margin: 0 auto 35px;
@@ -69,7 +83,7 @@ li {
   margin-bottom: 30px;
 }
 .lead {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 .portfolio-btn {
