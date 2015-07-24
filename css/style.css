@@ -5,7 +5,9 @@
   font-size: 10px;
 }
 
-
+nav.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse {
+  background: rgba(0,0,0,0.8);
+}
 
 /* Accent Colors
 ***************************************************************************/
