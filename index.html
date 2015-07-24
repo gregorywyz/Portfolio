@@ -65,12 +65,23 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
+                    <!-- Use page scroll for mobile -->
+                    <li id="resume-btn-mobile">
                         <a class="page-scroll" href="#resume">Resume</a>
                     </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="resumes/Wyszynski_Greg_May28_2015.pdf" target="_blank">Resume</a>
-                    </li> -->
+                    <!-- Use dropdown for desktop -->
+                    <li class="dropdown" id="resume-btn-desktop">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Resume <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="resumes/Wyszynski_Greg_resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> view PDF</a>
+                            </li>
+                            <li>
+                                <a href="resumes/Wyszynski_Greg_resume.docx"><i class="fa fa-file-word-o"></i> download docx</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -330,10 +341,10 @@
                 <h2>Resume</h2>
                 <ul class="list-inline">
                     <li>
-                        <a href="resumes/Wyszynski_Greg_resume.pdf" class="btn btn-default btn-lg" target="_blank">view .PDF</a>
+                        <a href="resumes/Wyszynski_Greg_resume.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-pdf-o"></i> view .PDF</a>
                     </li>
                     <li>
-                        <a href="resumes/Wyszynski_Greg_resume.docx" class="btn btn-default btn-lg">download .docx</a>
+                        <a href="resumes/Wyszynski_Greg_resume.docx" class="btn btn-default btn-lg"><i class="fa fa-file-word-o"></i> download .docx</a>
                     </li>
                 </ul>
             </div>
