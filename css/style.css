@@ -9,6 +9,10 @@ nav.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse {
   background: rgba(0,0,0,0.8);
 }
 
+#resume-btn-desktop>ul>li>a:hover {
+    color: #F06E28;
+}
+
 /* Accent Colors
 ***************************************************************************/
 
@@ -92,4 +96,24 @@ li {
   margin-bottom: 30px;
 }
 
+
+
+/* Media Queries
+***************************************************************************/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  #resume-btn-desktop {
+    display: none;
+  }
+}
+
+/* Medium Devices and Up, Desktops */
+@media only screen and (min-width : 768px) {
+
+  #resume-btn-mobile {
+    display: none;
+  }
+}
 
