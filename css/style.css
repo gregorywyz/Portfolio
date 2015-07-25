@@ -13,6 +13,10 @@ nav.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse {
     color: #F06E28;
 }
 
+.shadow {
+  text-shadow: 3px 3px 5px #000000, -1px -1px 3px #000000;
+}
+
 /* Accent Colors
 ***************************************************************************/
 
@@ -36,6 +40,19 @@ a:focus {
     background-color: #F06E28;
 }
 
+.btn-invert {
+    border: 1px solid #F06E28;
+    background-color: #F06E28;
+    color: #333;
+}
+
+.btn-invert:hover,
+.btn-invert:focus {
+    border: 1px solid #F06E28;
+    /*background: rgba(240,110,40,0.5);*/
+    background: rgba(51,51,51,0.7);
+    color: #F06E28;
+}
 
 
 /* About Content
