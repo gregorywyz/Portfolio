@@ -124,6 +124,12 @@ li {
   #resume-btn-desktop {
     display: none;
   }
+
+  .list-inline>.resume-btn {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 }
 
 /* Medium Devices and Up, Desktops */
