@@ -66,11 +66,21 @@ li {
   list-style: none;
 }
 
+h5 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
 .exp-ul {
   padding-left: 20px;
 }
 .exp-ul > li {
   list-style: circle;
+}
+
+.experience-item>div>p,
+.experience-item>div>ul {
+  margin-left: 25px;
 }
 
 #headshot {
@@ -83,6 +93,13 @@ li {
   margin: 0 0 35px;
 }
 
+#about>h3 {
+  margin-top: 25px;
+}
+
+.skills {
+  margin-bottom: 25px;
+}
 
 
 /* Portfolio Content
