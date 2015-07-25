@@ -90,7 +90,7 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro" data-parallax="scroll" data-image-src="img/tetons.jpg">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -197,15 +197,6 @@
     <section id="portfolio" class="content-section text-center">
 
         <h2 data-sr='vFactor 0.8, opacity 0, scale 100%, over 2s'>Portfolio</h2>
-    <!--         <div class="download-section">
-                <div class="container">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Download Grayscale</h2>
-                        <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                        <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                    </div>
-                </div>
-            </div> -->
 
         <div class="content-section-b">
 
@@ -308,26 +299,27 @@
 
     </section>
 
+<div data-parallax="scroll" data-image-src="img/skier.jpg" style="padding-bottom: 80px;">
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row" data-sr='vFactor 0.8, opacity 0, scale 100%, over 2s'>
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <h3>Greg Wyszynski</h3>
-                <p>San Diego, California</p>
-                <p><em>Hire me! I am seeking a full time or contract web development position in the Greater San Diego Area.</em></p>
-                <p><a href="mailto:gregory.wyszynski@gmail.com">gregory.wyszynski@gmail.com</a>
+                <h2 class="shadow">Contact</h2>
+                <h3 class="shadow">Greg Wyszynski</h3>
+                <p class="shadow">San Diego, California</p>
+                <p class="shadow"><em>Hire me! I am seeking a full time or contract web development position in the Greater San Diego Area.</em></p>
+                <p><a href="mailto:gregory.wyszynski@gmail.com"><i class="fa fa-envelope"></i> <strong>gregory.wyszynski@gmail.com</strong></a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/GregoryWyz" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/GregoryWyz" class="btn btn-invert btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/gregorywyz" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/gregorywyz" class="btn btn-invert btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/gregwyszynski85
-" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">Linked In</span></a>
+" class="btn btn-invert btn-lg" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">Linked In</span></a>
                     </li>
                 </ul>
             </div>
@@ -338,18 +330,19 @@
     <section id="resume" class="container content-section text-center">
         <div class="row" data-sr='vFactor 0.8, opacity 0, scale 100%, over 2s'>
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Resume</h2>
+                <h2 class="shadow">Resume</h2>
                 <ul class="list-inline">
                     <li>
-                        <a href="resumes/Wyszynski_Greg_resume.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-pdf-o"></i> view .PDF</a>
+                        <a href="resumes/Wyszynski_Greg_resume.pdf" class="btn btn-invert btn-lg" target="_blank"><i class="fa fa-file-pdf-o"></i> view .PDF</a>
                     </li>
                     <li>
-                        <a href="resumes/Wyszynski_Greg_resume.docx" class="btn btn-default btn-lg"><i class="fa fa-file-word-o"></i> download .docx</a>
+                        <a href="resumes/Wyszynski_Greg_resume.docx" class="btn btn-invert btn-lg"><i class="fa fa-file-word-o"></i> download .docx</a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
+</div>
 
     <!-- Footer -->
     <footer>
@@ -373,6 +366,7 @@
 
 
     <script src='js/scrollReveal.js'></script>
+    <script src="js/parallax.min.js"></script>
     <script type="text/javascript">
         window.sr = new scrollReveal();
     </script>
