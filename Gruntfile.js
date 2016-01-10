@@ -7,10 +7,8 @@ module.exports = function(grunt) {
         concat: {
             javascript: { // concatinates js files
                 src: [
-                    'js/jquery.js',
                     'js/bootstrap.min.js',
                     'js/jquery.easing.min.js',
-                    '/js/grayscale.js',
                     'js/scrollReveal.js',
                     'js/parallax.min.js'
                 ],
@@ -27,6 +25,14 @@ module.exports = function(grunt) {
         },
 
         uglify: {  // minifies js files
+            jquery: {
+                src: 'js/jquery.js',
+                dest: 'build/js/jquery.min.js'
+            },
+            grayscale: {
+                src: 'js/grayscale.js',
+                dest: 'build/js/grayscale.min.js'
+            },
             build: {
                 src: 'build/js/script.js',
                 dest: 'build/js/script.min.js'
